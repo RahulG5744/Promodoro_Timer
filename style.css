@@ -1,0 +1,48 @@
+.container{
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.title{
+    font-size: 36px;
+    color:#2c3e50;
+
+}
+
+button{
+    font-size: 18px;
+    padding: 10px 20px
+    margin: 10px;
+    color: white;
+    background-color: #2c3e50;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: capacity .3s;
+}
+
+button:hover{
+    capacity: 0.7;
+}
+
+#start{
+    background-color: #27ae60;
+
+}
+
+#stop{
+    background-color: red;
+}
+
+#reset{
+    background-color:#7f8c8d;
+}
+
+#timer{
+    font-size: 70px;
+}
